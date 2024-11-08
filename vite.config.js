@@ -12,5 +12,6 @@ export default defineConfig({
       '/Brand': 'http://localhost:3000', // Proxying Brand routes for blogs and campaigns
       // Add more proxies as needed based on your backend routes
     },
+    historyApiFallback: true,
   },
 });
